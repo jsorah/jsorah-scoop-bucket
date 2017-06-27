@@ -7,7 +7,7 @@
 	"bin": "jd-gui-windows-1.4.0/jd-gui.exe",
 	"shortcuts": [
 		[
-			"jd-gui.exe",
+			"jd-gui-windows-1.4.0/jd-gui.exe",
 			"jd-gui"
 		]
 	]
