@@ -1,0 +1,13 @@
+{
+homepage: "http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm",
+version: "2.55",
+url: "http://www.handshake.de/user/chmaas/delphi/download/xvi32.zip",
+hash: "",
+bin: "XVI32.exe",
+shortcuts: [
+[
+"XVI32.exe",
+"XVI32"
+]
+]
+}
