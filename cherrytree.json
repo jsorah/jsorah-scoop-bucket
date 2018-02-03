@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.giuspen.com/cherrytree/",
+    "version": "0.38.4",
+    "url": "http://www.giuspen.com/software/cherrytree_0.38.4_win32_portable.7z",
+    "hash": "79cc58b0e4ca7ae1bba50367bf555f0f14708017142154f3512b806c6c60297d",
+    "extract_dir": "cherrytree_0.38.4_win32_portable",
+    "bin": "bin/cherrytree.exe",
+    "shortcuts": [
+        [
+        "bin/cherrytree.exe",
+        "CherryTree"
+        ]
+    ]
+
+}
