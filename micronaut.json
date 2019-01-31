@@ -1,0 +1,15 @@
+{
+    "version": "1.0.4",
+    "license": "Apache-2.0",
+    "homepage": "https://micronaut.io/",    
+    "bin": "bin\\mn.bat",
+    "url": "https://github.com/micronaut-projects/micronaut-core/releases/download/v1.0.4/micronaut-1.0.4.zip",
+    "checkver": {
+        "github": "https://github.com/micronaut-projects/micronaut-core"
+    },
+    "autoupdate": {
+        "url": "https://github.com/micronaut-projects/micronaut-core/releases/download/v$version/micronaut-$version.zip"
+    },    
+    "pre_install": [ "if (Test-Path \"$original_dir\\micronaut-$version\") { Get-ChildItem -Path \"$original_dir\\micronaut-$version\" | Copy-Item -Destination $original_dir -Recurse -Container; Remove-Item -path \"$original_dir\\micronaut-$version\" -recurse  }"]
+}
+  
